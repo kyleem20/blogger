@@ -2,12 +2,12 @@
   <header>
     <Navbar />
   </header>
-  <main>
+  <main class="container-fluid">
     <router-view />
   </main>
-  <footer>
+  <footer class="footer">
     <div class="bg-dark text-light text-center p-4">
-      Made with 💖 by CodeWorks
+      Made with 🎾
     </div>
   </footer>
 </template>
@@ -26,5 +26,13 @@ export default {
 </script>
 <style lang="scss">
 @import "./assets/scss/main.scss";
-
+// #footer {
+//   position: fixed;
+//     height: 50px;
+//     background-color: red;
+//     bottom: 0px;
+//     left: 0px;
+//     right: 0px;
+//     margin-bottom: 0px;
+// }
 </style>
